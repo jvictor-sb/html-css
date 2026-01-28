@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <div class="Imagens-Dinâmicas">
+        <h1>Imagem dinâmica</h1>
+        <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+        <picture>
+            <source media="(max-width: 650px )" srcset="media/imagem-p.png">
+            <source media="(max-width: 1250px )" srcset="media/Imagem-m.png">
+            <img src="media/imagem-g.png" alt="Imagem flexível">
+        </picture>
+    </div>
+    <div>
+        <!-- 
+            <h1>Reproduzindo Áudio</h1>
+            <p>Aprendendo a reproduzir áudios em HTML5</p>
+            <audio src="audio/guanacast-33.mp3" controls ></audio>
+            <audio src="audio/happy-mistake.mp3" controls ></audio>
+            -->
+            <audio preload="metadata" controls >
+                <source src="audio/happy-mistake.mp3" type="audio/mpeg">
+                <p>Caso o navegador não consiga carregar esse tipo de arquivo. Essa mensagem aparecerá</p>
+            </audio>
+    </div>
+</body>
+</html>

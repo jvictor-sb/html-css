@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #8F248C, #DB63D9);
+}
+
+.page-layout {
+    background-color: white;
+    border-radius: 10px;
+    width: 1500px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 15px #52155096;
+}
+
+header {
+    text-align: center;
+    color: #518F32;
+}
+
+hr {
+    color: black;
+    width: 80%;
+    
+}
+
+h2 {
+    color: #8BDB63;
+}
+
+.Sobre-mim {
+    text-align: center;
+}
