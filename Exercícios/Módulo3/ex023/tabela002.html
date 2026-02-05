@@ -12,11 +12,28 @@
         table {
             border-collapse: collapse;
             width: 500px ;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
         }
 
         td, th {
             border: 1px solid black;
             padding: 8px;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+        thead {
+            position: sticky;
+            top: -1px;
         }
 
         .num {
@@ -37,6 +54,7 @@
     <!--
         Anatomia para tabelas grandes
         table
+            Caption
             THEAD
                 TR, TD, TH
             TBODY
@@ -46,10 +64,11 @@
     
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -164,11 +183,22 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td><strong>213.421.037</strong></td>
             </tr>
         </tfoot>
     </table>
-
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fuga cum, perspiciatis tempore amet delectus ratione dolorum aperiam beatae numquam vitae corrupti fugiat molestiae, magnam qui veritatis. Et, dolor corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias harum earum saepe hic consequuntur deleniti cum libero eius fuga itaque alias, ipsum magnam beatae rerum voluptas in neque culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quisquam blanditiis id, aut dolore nihil odit saepe dolorum at, mollitia voluptatum hic accusamus beatae fugiat. Eveniet nesciunt aut non odit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi minima reiciendis beatae doloribus? Dolores quam, totam aperiam at pariatur ea voluptatem quis nihil, doloribus vel nulla reprehenderit. Rem, nam assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, minus fugiat porro mollitia totam accusantium labore. Pariatur vel est quae nostrum, asperiores eum commodi officia natus. Quidem, necessitatibus. Ducimus, delectus.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fuga cum, perspiciatis tempore amet delectus ratione dolorum aperiam beatae numquam vitae corrupti fugiat molestiae, magnam qui veritatis. Et, dolor corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias harum earum saepe hic consequuntur deleniti cum libero eius fuga itaque alias, ipsum magnam beatae rerum voluptas in neque culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quisquam blanditiis id, aut dolore nihil odit saepe dolorum at, mollitia voluptatum hic accusamus beatae fugiat. Eveniet nesciunt aut non odit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi minima reiciendis beatae doloribus? Dolores quam, totam aperiam at pariatur ea voluptatem quis nihil, doloribus vel nulla reprehenderit. Rem, nam assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, minus fugiat porro mollitia totam accusantium labore. Pariatur vel est quae nostrum, asperiores eum commodi officia natus. Quidem, necessitatibus. Ducimus, delectus.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fuga cum, perspiciatis tempore amet delectus ratione dolorum aperiam beatae numquam vitae corrupti fugiat molestiae, magnam qui veritatis. Et, dolor corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias harum earum saepe hic consequuntur deleniti cum libero eius fuga itaque alias, ipsum magnam beatae rerum voluptas in neque culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quisquam blanditiis id, aut dolore nihil odit saepe dolorum at, mollitia voluptatum hic accusamus beatae fugiat. Eveniet nesciunt aut non odit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi minima reiciendis beatae doloribus? Dolores quam, totam aperiam at pariatur ea voluptatem quis nihil, doloribus vel nulla reprehenderit. Rem, nam assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, minus fugiat porro mollitia totam accusantium labore. Pariatur vel est quae nostrum, asperiores eum commodi officia natus. Quidem, necessitatibus. Ducimus, delectus.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fuga cum, perspiciatis tempore amet delectus ratione dolorum aperiam beatae numquam vitae corrupti fugiat molestiae, magnam qui veritatis. Et, dolor corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias harum earum saepe hic consequuntur deleniti cum libero eius fuga itaque alias, ipsum magnam beatae rerum voluptas in neque culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quisquam blanditiis id, aut dolore nihil odit saepe dolorum at, mollitia voluptatum hic accusamus beatae fugiat. Eveniet nesciunt aut non odit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi minima reiciendis beatae doloribus? Dolores quam, totam aperiam at pariatur ea voluptatem quis nihil, doloribus vel nulla reprehenderit. Rem, nam assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, minus fugiat porro mollitia totam accusantium labore. Pariatur vel est quae nostrum, asperiores eum commodi officia natus. Quidem, necessitatibus. Ducimus, delectus.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fuga cum, perspiciatis tempore amet delectus ratione dolorum aperiam beatae numquam vitae corrupti fugiat molestiae, magnam qui veritatis. Et, dolor corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias harum earum saepe hic consequuntur deleniti cum libero eius fuga itaque alias, ipsum magnam beatae rerum voluptas in neque culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quisquam blanditiis id, aut dolore nihil odit saepe dolorum at, mollitia voluptatum hic accusamus beatae fugiat. Eveniet nesciunt aut non odit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi minima reiciendis beatae doloribus? Dolores quam, totam aperiam at pariatur ea voluptatem quis nihil, doloribus vel nulla reprehenderit. Rem, nam assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, minus fugiat porro mollitia totam accusantium labore. Pariatur vel est quae nostrum, asperiores eum commodi officia natus. Quidem, necessitatibus. Ducimus, delectus.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fuga cum, perspiciatis tempore amet delectus ratione dolorum aperiam beatae numquam vitae corrupti fugiat molestiae, magnam qui veritatis. Et, dolor corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias harum earum saepe hic consequuntur deleniti cum libero eius fuga itaque alias, ipsum magnam beatae rerum voluptas in neque culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quisquam blanditiis id, aut dolore nihil odit saepe dolorum at, mollitia voluptatum hic accusamus beatae fugiat. Eveniet nesciunt aut non odit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi minima reiciendis beatae doloribus? Dolores quam, totam aperiam at pariatur ea voluptatem quis nihil, doloribus vel nulla reprehenderit. Rem, nam assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, minus fugiat porro mollitia totam accusantium labore. Pariatur vel est quae nostrum, asperiores eum commodi officia natus. Quidem, necessitatibus. Ducimus, delectus.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fuga cum, perspiciatis tempore amet delectus ratione dolorum aperiam beatae numquam vitae corrupti fugiat molestiae, magnam qui veritatis. Et, dolor corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias harum earum saepe hic consequuntur deleniti cum libero eius fuga itaque alias, ipsum magnam beatae rerum voluptas in neque culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quisquam blanditiis id, aut dolore nihil odit saepe dolorum at, mollitia voluptatum hic accusamus beatae fugiat. Eveniet nesciunt aut non odit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi minima reiciendis beatae doloribus? Dolores quam, totam aperiam at pariatur ea voluptatem quis nihil, doloribus vel nulla reprehenderit. Rem, nam assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, minus fugiat porro mollitia totam accusantium labore. Pariatur vel est quae nostrum, asperiores eum commodi officia natus. Quidem, necessitatibus. Ducimus, delectus.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fuga cum, perspiciatis tempore amet delectus ratione dolorum aperiam beatae numquam vitae corrupti fugiat molestiae, magnam qui veritatis. Et, dolor corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias harum earum saepe hic consequuntur deleniti cum libero eius fuga itaque alias, ipsum magnam beatae rerum voluptas in neque culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quisquam blanditiis id, aut dolore nihil odit saepe dolorum at, mollitia voluptatum hic accusamus beatae fugiat. Eveniet nesciunt aut non odit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi minima reiciendis beatae doloribus? Dolores quam, totam aperiam at pariatur ea voluptatem quis nihil, doloribus vel nulla reprehenderit. Rem, nam assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, minus fugiat porro mollitia totam accusantium labore. Pariatur vel est quae nostrum, asperiores eum commodi officia natus. Quidem, necessitatibus. Ducimus, delectus.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fuga cum, perspiciatis tempore amet delectus ratione dolorum aperiam beatae numquam vitae corrupti fugiat molestiae, magnam qui veritatis. Et, dolor corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias harum earum saepe hic consequuntur deleniti cum libero eius fuga itaque alias, ipsum magnam beatae rerum voluptas in neque culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quisquam blanditiis id, aut dolore nihil odit saepe dolorum at, mollitia voluptatum hic accusamus beatae fugiat. Eveniet nesciunt aut non odit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi minima reiciendis beatae doloribus? Dolores quam, totam aperiam at pariatur ea voluptatem quis nihil, doloribus vel nulla reprehenderit. Rem, nam assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, minus fugiat porro mollitia totam accusantium labore. Pariatur vel est quae nostrum, asperiores eum commodi officia natus. Quidem, necessitatibus. Ducimus, delectus.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fuga cum, perspiciatis tempore amet delectus ratione dolorum aperiam beatae numquam vitae corrupti fugiat molestiae, magnam qui veritatis. Et, dolor corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias harum earum saepe hic consequuntur deleniti cum libero eius fuga itaque alias, ipsum magnam beatae rerum voluptas in neque culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quisquam blanditiis id, aut dolore nihil odit saepe dolorum at, mollitia voluptatum hic accusamus beatae fugiat. Eveniet nesciunt aut non odit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi minima reiciendis beatae doloribus? Dolores quam, totam aperiam at pariatur ea voluptatem quis nihil, doloribus vel nulla reprehenderit. Rem, nam assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, minus fugiat porro mollitia totam accusantium labore. Pariatur vel est quae nostrum, asperiores eum commodi officia natus. Quidem, necessitatibus. Ducimus, delectus.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fuga cum, perspiciatis tempore amet delectus ratione dolorum aperiam beatae numquam vitae corrupti fugiat molestiae, magnam qui veritatis. Et, dolor corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias harum earum saepe hic consequuntur deleniti cum libero eius fuga itaque alias, ipsum magnam beatae rerum voluptas in neque culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quisquam blanditiis id, aut dolore nihil odit saepe dolorum at, mollitia voluptatum hic accusamus beatae fugiat. Eveniet nesciunt aut non odit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi minima reiciendis beatae doloribus? Dolores quam, totam aperiam at pariatur ea voluptatem quis nihil, doloribus vel nulla reprehenderit. Rem, nam assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, minus fugiat porro mollitia totam accusantium labore. Pariatur vel est quae nostrum, asperiores eum commodi officia natus. Quidem, necessitatibus. Ducimus, delectus.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fuga cum, perspiciatis tempore amet delectus ratione dolorum aperiam beatae numquam vitae corrupti fugiat molestiae, magnam qui veritatis. Et, dolor corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias harum earum saepe hic consequuntur deleniti cum libero eius fuga itaque alias, ipsum magnam beatae rerum voluptas in neque culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quisquam blanditiis id, aut dolore nihil odit saepe dolorum at, mollitia voluptatum hic accusamus beatae fugiat. Eveniet nesciunt aut non odit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi minima reiciendis beatae doloribus? Dolores quam, totam aperiam at pariatur ea voluptatem quis nihil, doloribus vel nulla reprehenderit. Rem, nam assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, minus fugiat porro mollitia totam accusantium labore. Pariatur vel est quae nostrum, asperiores eum commodi officia natus. Quidem, necessitatibus. Ducimus, delectus.</p>
 </body>
 </html>
